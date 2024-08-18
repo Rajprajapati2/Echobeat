@@ -1,0 +1,78 @@
+/* what is utility class ?
+which we can use any of this element this 4 class are utility class suppose i need display flex so i will used class flex, which i do  justify-content: center; i use class justify-center so this is know as utility
+
+*/
+
+.boder{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.bg-black{
+ background-color: black;
+ color: white;   
+}
+
+.invert{
+    filter: invert(1); /* our logo is not seeing because of background color that why we used this fliter */
+}
+
+.bg-grey{
+    background-color: #121212; /* our website background color */
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;    /* to fixed this we have given a padding on it */
+}
+
+
+/* Scrollbar styles for webkit-based browsers */
+/* give me css code of dark website scrollbar this we write in chat gpt */
+::-webkit-scrollbar {
+    width: 12px;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark grey for the scrollbar thumb */
+    border-radius: 44px;
+    
+}
+
+
+
+::-webkit-scrollbar-track {
+    background-color: #222; /* Dark background for the scrollbar track */
+
+}
+
+
+
+/* Scrollbar styles for Firefox */
+* {
+   /* Makes the scrollbar thinner */
+    scrollbar-color: #555 #222; /* Thumb color and track color */
+}
+
+
+
+
